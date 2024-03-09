@@ -1,5 +1,5 @@
 {
-  "name": "Easy iFrame",
+  "name": "Smart iFrame",
   "author": {
     "name": "Hubbub Studios",
     "email": "taylor@hubbub.dev"
@@ -26,12 +26,7 @@
     {
       "name": "height",
       "type": "number",
-      "default": 150
-    },
-    {
-      "name": "pass_sdk",
-      "type": "checkbox",
-      "default": true
+      "default": 250
     }
   ]
 }
