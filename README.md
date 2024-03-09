@@ -14,7 +14,7 @@ Available template strings:
 - `{assignee_id}`
 - `{assignee_email}`
 
-For example, setting up the app with URL `https://mysite.com/profile/{requester_email}` will result in an embedded iFrame to URL `https://mysite.com/profile/1234`
+For example, setting up the app with URL `https://mysite.com/profile/{requester_id}` will result in an embedded iFrame to URL `https://mysite.com/profile/1234` where `1234` is the Zendesk user ID of the ticket requester (aka customer)
 
 This application was created by Hubbub Studios.
 
