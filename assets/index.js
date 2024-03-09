@@ -120,9 +120,13 @@ function flashClipboardCopied() {
   let btn = document.getElementById("copy-url");
   btn.innerHTML = clipboardCheckIcon;
 
-  setTimeout(() => {
+  let timeoutId = setTimeout(() => {
     btn.innerHTML = pasteClipboardIcon;
   }, 2000);
+
+  return function () {
+    clearTimeout(timeoutId);
+  };
 }
 
 /**
