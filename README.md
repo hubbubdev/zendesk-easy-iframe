@@ -20,4 +20,4 @@ This application was created by Hubbub Studios.
 
 ### Screenshot(s):
 
-![Smart iFrame screenshot](/app/assets/listing/app.png)
+![screenshot](https://raw.githubusercontent.com/hubbubdev/zendesk-easy-iframe/main/assets/listing/app.png)
