@@ -1,0 +1,37 @@
+{
+  "name": "Easy iFrame",
+  "author": {
+    "name": "Hubbub Studios",
+    "email": "taylor@hubbub.dev"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/app.html",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "parameters": [
+    {
+      "name": "url",
+      "type": "text",
+      "default": "https://google.com?q=${ticketId}",
+      "required": true
+    },
+    {
+      "name": "height",
+      "type": "number",
+      "default": 150
+    },
+    {
+      "name": "pass_sdk",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
