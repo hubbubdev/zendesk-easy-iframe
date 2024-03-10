@@ -21,7 +21,7 @@
     {
       "name": "url",
       "type": "text",
-      "default": "https://google.com?q=${ticketId}",
+      "default": "https://trex-runner.com?ticket_id={ticket_id}",
       "required": true
     },
     {
