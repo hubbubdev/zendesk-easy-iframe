@@ -5,8 +5,14 @@
     "long_description": "Add an iFrame to bring other websites into the agent workspace.\nUse template strings like {ticket_id} to create dynamic URLs.",
     "installation_instructions": "Simply specify the URL to embed and install!",
     "parameters": {
-      "url": "URL",
-      "height": "Height"
+      "url": {
+        "label": "URL",
+        "helpText": "The URL of the site to iFrame. Include template strings like {ticket_id} or {current_user_email} to make the URL dynamic."
+      },
+      "height": {
+        "label": "Height",
+        "helpText": "The fixed height of the iFrame window. Default 300px."
+      }
     }
   }
 }

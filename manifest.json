@@ -27,7 +27,7 @@
     {
       "name": "height",
       "type": "number",
-      "default": 250
+      "default": 300
     }
   ]
 }
