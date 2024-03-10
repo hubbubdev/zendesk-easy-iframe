@@ -29,8 +29,6 @@ async function zd() {
   state.currentUser = currentUser.currentUser || null;
   state.requester = requester["ticket.requester"] || null;
   state.assignee = assignee["ticket.assignee.user"] || null;
-
-  console.log("State:", state);
 }
 
 /**
@@ -43,9 +41,6 @@ function generateUrl() {
   if (urlTemplate) {
     url = urlTemplate;
   } else {
-    console.log(
-      "Error: No URL provided for Zendesk app. Showing a dinosaur game."
-    );
     url = fallbackUrl;
   }
 
