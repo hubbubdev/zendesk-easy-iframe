@@ -2,10 +2,11 @@
   "name": "Smart iFrame",
   "author": {
     "name": "Hubbub Studios",
-    "email": "taylor@hubbub.dev"
+    "email": "taylor@hubbub.dev",
+    "url": "https://github.com/hubbubdev/zendesk-easy-iframe"
   },
   "defaultLocale": "en",
-  "private": true,
+  "private": false,
   "location": {
     "support": {
       "ticket_sidebar": {
