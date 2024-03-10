@@ -1,8 +1,8 @@
 {
   "app": {
-    "name": "Zen Tunes",
-    "short_description": "Play the famous zen tunes in your help desk.",
-    "long_description": "Play the famous zen tunes in your help desk and \n listen to the beats it has to offer.",
-    "installation_instructions": "Simply click install."
+    "name": "Smart iFrame",
+    "short_description": "Easily embed other websites, with dynamic URLs.",
+    "long_description": "Add an iFrame to bring other websites into the agent workspace.\nUse template strings like {ticket_id} to create dynamic URLs.",
+    "installation_instructions": "Simply specify your URL. For full details, see: https://github.com/hubbubdev/zendesk-easy-iframe"
   }
 }
