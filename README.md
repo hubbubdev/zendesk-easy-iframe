@@ -16,13 +16,13 @@ Available template strings:
 
 For example, setting up the app with URL `https://mysite.com/profile/{requester_id}` will result in an embedded iFrame to URL `https://mysite.com/profile/1234` where `1234` is the Zendesk user ID of the ticket requester (aka customer)
 
-![screenshot](https://raw.githubusercontent.com/hubbubdev/zendesk-easy-iframe/main/assets/listing/app.png)
+![app](https://github.com/hubbubdev/zendesk-easy-iframe/assets/162829918/10ad63f7-ff06-4920-b130-0ae94fa0bf2c)
 
 ### iFrame Not Working?
 
 Not all websites can be rendered within an iFrame. If you see this:
 
-![screenshot](https://raw.githubusercontent.com/hubbubdev/zendesk-easy-iframe/main/assets/listing/app_blocked.png)
+![app_blocked](https://github.com/hubbubdev/zendesk-easy-iframe/assets/162829918/b158ac21-f413-4103-9e65-e9d93b4795c0)
 
 The application may be blocking this behavior. This is a decision made by the respective website owner / administrator.
 
