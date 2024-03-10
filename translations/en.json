@@ -3,6 +3,10 @@
     "name": "Smart iFrame",
     "short_description": "Easily embed other websites, with dynamic URLs.",
     "long_description": "Add an iFrame to bring other websites into the agent workspace.\nUse template strings like {ticket_id} to create dynamic URLs.",
-    "installation_instructions": "Simply specify the URL to embed and install!"
+    "installation_instructions": "Simply specify the URL to embed and install!",
+    "parameters": {
+      "url": "URL",
+      "height": "Height"
+    }
   }
 }
